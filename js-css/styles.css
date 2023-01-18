@@ -1,0 +1,19 @@
+.gridelement {
+    min-height: 0.16vh;
+    min-width: 0.16vh;
+    margin: 2px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    min-height: 100%;
+    margin:0px
+}
+html, body {
+    min-height: 100%;
+}
+body {
+    height: 100vh;
+}
