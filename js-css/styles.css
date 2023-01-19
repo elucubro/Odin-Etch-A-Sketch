@@ -17,3 +17,11 @@ html, body {
 body {
     height: 100vh;
 }
+
+div {
+    background-color: white;
+}
+
+.bluey {
+    background-color: aqua;
+}
